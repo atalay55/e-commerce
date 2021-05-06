@@ -8,8 +8,9 @@ public class User implements Entity {
 	private String surName;
 	private String password;
 	private String email;
-	public User(String firstName, String surName, String password, String email) {
+	public User(int id ,String firstName, String surName, String password, String email) {
 		super();
+		this.id=id;
 		this.firstName = firstName;
 		this.surName = surName;
 		this.password = password;

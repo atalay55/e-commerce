@@ -11,7 +11,7 @@ public class Main {
 	public static void main(String[] args) {
 
 	
-		User user1= new User("fatih","atalay","12356546","asdas@sadsad.com");
+		User user1= new User(3,"fatih","atalay","12356546","asdas@sadsad.com");
 		UserManager userManager= new UserManager(new CheckManager(), new GoogleManager(),new AbcUserDao());
 		
 		userManager.login(user1);

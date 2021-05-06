@@ -11,8 +11,8 @@ public class AbcUserDao implements UserDao{
 	
 	public AbcUserDao() {
 		this.users = new ArrayList<User>();
-		User use = new User("fa", "asdasd", "123456879", "s@sadsad.com");
-		User user1= new User("fatih","atalay","12356546","asdas@sadsad.com");
+		User use = new User(1,"fa", "asdasd", "123456879", "s@sadsad.com");
+		User user1= new User(2,"fatih","atalay","12356546","asdas@sadsad.com");
 		users.add(use);
 		users.add(user1);
 	}
