@@ -7,6 +7,5 @@ public interface UserService {
 	void delete(User user);
 	void update(User user);
 	void addWithGoogle(User user);
-	void login(User user);
 
 }
